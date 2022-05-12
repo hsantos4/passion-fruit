@@ -1,0 +1,17 @@
+.contact-banner {
+    background-image: linear-gradient(to right, #1c5443cc 50%, rgba(28, 85, 68, 0.363) , rgba(255,255,255,0) ), url('https://ik.imagekit.io/hjsantos797/My_website_images/services-banner-min_HuH6zxYGF.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651160444027');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+}
+
+.contact-banner h3 {
+    position: relative;
+    top: 30%;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+
+}

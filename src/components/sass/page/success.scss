@@ -1,0 +1,22 @@
+.success-content-wrapper {
+    height: 80vh;
+    position: relative;
+    top: 50%;
+}
+
+.success-content {
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.success-link {
+    color: #A32D5D;
+}
+
+.success-link:hover {
+    color: #8f2e55;
+}

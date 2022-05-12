@@ -1,0 +1,100 @@
+.hero {
+    background-image: linear-gradient(to right, rgba(28,85,68,.8) 50%, rgba(28, 85, 68, 0.363) , rgba(255,255,255,0) ), url('https://ik.imagekit.io/hjsantos797/My_website_images/hero-img-min_Te-vzBBTH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650331580323');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.hero-content {
+    position: relative;
+    top: 10%;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+.hero-content h1 {
+    font-size: 3.2rem;
+    line-height: 1;
+    color: #EDD478;
+}
+
+.hero-content h2 {
+    color: #ffffff;
+    font-size: 3rem;
+    line-height: .8;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.hero-cta {
+    display: block;
+    margin: auto auto;
+    width: 200px;
+    border-radius: 10px;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    background-color: #A32D5D;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hero-cta:hover {
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+
+
+@media screen and (max-width: 830px) {
+        .hero-content {
+            position: relative;
+            left: 20px;
+            width: 80%;
+            text-align: left;
+    
+            .hero-cta {
+                margin: 0;
+            }
+            
+        }
+}
+
+@media screen and (min-width: 830px) {
+    .hero-content {
+        position: relative;
+        top: 200px;
+        left: 150px;
+        width: 60%;
+        text-align: left;
+
+        .hero-cta {
+            margin: 0;
+        }
+        
+    }
+
+    
+
+   
+}
+
+@media screen and (min-width: 1000px) {
+    .hero-content {
+        left: 150px;
+        width: 40%;
+      
+    }
+}

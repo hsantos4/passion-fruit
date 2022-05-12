@@ -1,0 +1,124 @@
+.about-banner {
+    background-image: linear-gradient(to right, rgba(28,85,68,.8) 50%, rgba(28, 85, 68, 0.363) , rgba(255,255,255,0) ), url('https://ik.imagekit.io/hjsantos797/My_website_images/about-banner-min_Hqaxop10xP.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650331496004');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+}
+.about-container {
+    padding: 0;
+}
+.about-banner h3 {
+    position: relative;
+    top: 30%;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-benfits-heading {
+    text-align: center;
+    margin-top: 4rem;
+    color: #98CF5A;
+    font-size: 2rem;
+}
+.about-benefits {
+    background-color: #F2F6F7;
+    text-align: center;
+    margin-top: 1rem;
+}
+.row {
+    margin: 0;
+}
+.about-benefits p {
+    margin-bottom: 0;
+}
+
+.about-benefits-container {
+    padding-top: 1rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+
+.about-banner-2 {
+    background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8) 50%, rgba(116, 116, 116, 0.363) , rgba(255,255,255,0) ), url('https://ik.imagekit.io/hjsantos797/My_website_images/vision-about-min_-cSp-647c.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650331502562');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+.about-banner-2 h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+}
+
+.about-banner-2 p {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.about-cta-container {
+    text-align: center;
+    padding: 1rem;
+    margin: 4rem 0;
+}
+
+.about-cta {
+    display: block;
+    margin: auto auto;
+    margin-top: auto;
+    width: 200px;
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+    background-color: #A32D5D;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+}
+
+.about-cta:hover {
+    background-color: #a32d5ce0;
+    color: #ffffffe2;
+    
+}
+
+.mission-vision {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 776px) {
+    .about-container {
+        text-align: center;
+    }
+
+    .about-me-who-we-are {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 776px) {
+    
+    .about-benefits-container {
+        margin-bottom: 0;
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    .about-me-who-we-are h3 {
+        text-align: center;
+    }
+    .about-me-who-we-are p {
+        width: 90%;
+        margin: auto auto;
+    }
+}

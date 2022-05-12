@@ -1,0 +1,32 @@
+.home-grid-container h3 {
+    text-align: center;
+}
+.home-grid-container {
+    margin-top: 4rem;
+}
+.home-grid-cards {
+    margin: auto auto;
+    width: 100%;
+}
+
+.card-container {
+    box-shadow: 1px 1px 20px 1px #1c544341;
+    margin-bottom: 2rem;
+}
+
+
+@media only screen and (min-width: 508px) {
+    .home-grid-cards {
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+    .card-container {
+        margin-bottom: 0;
+        box-shadow: 1px 1px 10px 1px #1c544341;
+    }
+    .home-grid-cards {
+        width: 600px;
+    }
+}

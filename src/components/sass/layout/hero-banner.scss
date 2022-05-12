@@ -1,0 +1,15 @@
+.hero-banner {
+    background-image: linear-gradient(to right, rgba(23, 24, 23, 0.8) 50%, rgba(127, 129, 129, 0.363) , rgba(233, 232, 232, 0) ), url('https://ik.imagekit.io/hjsantos797/My_website_images/home-cta-img-min_HEJmzPIfb.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650331582658');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 2rem;
+    margin: 6rem 0;
+}
+
+.hero-banner h3 {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: white;
+}
