@@ -49,13 +49,13 @@ const submitForm = () => {
                         <option value="4">Lets talk about it</option>
                     </Form.Select>
 
-                    <Form.Group controlId='message' className='form-group'>
+                    <Form.Group controlId='message-1' className='form-group'>
                         <Form.Label>What prompted you to start this project?</Form.Label>
-                        <Form.Control as='textarea' name='message' required></Form.Control>
+                        <Form.Control as='textarea' name='message-1' required></Form.Control>
                     </Form.Group>
-                    <Form.Group controlId='message' className='form-group'>
+                    <Form.Group controlId='message-2' className='form-group'>
                         <Form.Label>What business goals are you trying to achieve with this project?</Form.Label>
-                        <Form.Control as='textarea' name='message' required></Form.Control>
+                        <Form.Control as='textarea' name='message-2' required></Form.Control>
                     </Form.Group>
                
                     <Form.Group controlId='name' className='form-group'>

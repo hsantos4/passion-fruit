@@ -10,6 +10,7 @@ import Col from 'react-bootstrap/Col'
 import Form from '../components/Form.js'
 
 import '../components/sass/page/services.scss'
+import '../components/sass/layout/grid-layout.scss'
 
 const Services = () => {
     return(
@@ -32,8 +33,8 @@ const Services = () => {
                         What we do
                     </Card.Title>
                     <Card.Text>
-                        We speacialize in creating remarkable digital products for insurance angecies. With the goal of seeing your agency grow
-                        we put our heart into deploying the very best products that will deliver the best results.
+                        Creat remarkable digital products for insurance agencies. We want to see your agency grow so
+                        we put our heart into deploying the very best products that will deliver those results.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -42,7 +43,7 @@ const Services = () => {
 
             {/*This is explaing the web development service  */}
             <Container fluid="sm"> 
-            <Row className='align-items-center gx-5' md={2} lg={2}>
+            <Row className='grid-row align-items-center' md={2} lg={2}>
                 <Col sm={12} md={{order:2}}>
                     <StaticImage 
                     src='https://ik.imagekit.io/hjsantos797/My_website_images/development-services-min_eOlryUj3l.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650331497401'
@@ -53,14 +54,14 @@ const Services = () => {
                 </Col>
                 <Col className='col-text' sm={12} md={{order:1}}>
                     <h2>Web Design & Development</h2>
-                    <p>We Design and Develop websites, our websites are optimized for search engines and created to produce results. 
-                        Creating modern and clean websites that are easy for potential clients to navigate and turn into clients.
+                    <p>We Design and Develop websites. Our websites are optimized for search engines and created to reach the right audience. 
+                        Creating modern and simple websites that are easy to navigate.
                     </p>
                 </Col>
             </Row>
 
             
-            <Row className='align-items-center' md={2} lg={2}>
+            <Row className='grid-row align-items-center' md={2} lg={2}>
                 <Col sm={12} md={ {order:1} }>
                     <StaticImage
                     src='https://ik.imagekit.io/hjsantos797/My_website_images/hosting-services-min_UKdqY6i-vH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650331502721'
@@ -69,12 +70,12 @@ const Services = () => {
                     />
                 </Col>
                 <Col className='col-text' sm={12} md={ {order:2} }>
-                    <h3>Maintance & Hosting</h3>
-                    <p>With monthly website check ins, we make sure that your website is up-to-date, you no longer have to worry about updating your website. We also take charge of finding your website a home.</p>
+                    <h3>Maintenance & Hosting</h3>
+                    <p>With Website support we make sure that your website is up-to-date and running properly. You no longer have to spend hours trying update and fix website issues.</p>
                 </Col>
             </Row>
 
-            <Row className='align-items-center' md={2} lg={2}>
+            <Row className='grid-row align-items-center' md={2} lg={2}>
                 <Col sm={12} md={ {order:2} }>
                     <StaticImage 
                     src='https://ik.imagekit.io/hjsantos797/My_website_images/seo-img-min_m8Kl5--Ph.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651172632871'
@@ -84,10 +85,10 @@ const Services = () => {
                 </Col>
                 <Col className='col-text' sm={12} md={ {order:1} }>
                     <h3>SEO</h3>
-                    <p>Optimizing your website so your insurnace website can be at the top of any other insurance agency is our goal, we conduct research for popular terms and we implement them on your website. We take care of all the technical stuff so your can focusing on your agency.</p>
+                    <p>Optimizing your insurance website so your at the top is our goal, we conduct research for popular terms that people are searching for and we implement them on your website.</p>
                 </Col>
             </Row>
-            <Row className='align-items-center' md={2} lg={2}>
+            <Row className='grid-row align-items-center' md={2} lg={2}>
                 <Col  sm={12} md={ {order:1} }>
                 <StaticImage 
                     src='https://ik.imagekit.io/hjsantos797/My_website_images/servic-marketing_zAe45KzNj.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651173155654'
