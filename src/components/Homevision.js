@@ -16,8 +16,8 @@ const Homevision = () => {
                 <Col className='text-center home-vision' md={{ order: 1 }} sm={12}>
                     <h3 >A Solution that finally works!</h3>
                     <p >
-                     Services that help your agency reach its goals. <br /> The services we offer are 
-                     focused on insurance agencies, we know what clients are looking for. 
+                     Services that help your agency reach its goals. We 
+                     focus on insurance agencies, we know what clients are looking for. 
                     </p>
 
                 </Col>
