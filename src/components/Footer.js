@@ -10,10 +10,16 @@ import Col  from 'react-bootstrap/Col';
 import './sass/component/footer.scss';
 
 const Footer = () => {
+
+    const footerNavigation = [
+        { name: 'Home', to: '/' },
+        { name: 'About', to: '/about' },
+        { name: 'Services', to: '/services' },
+        { name: 'Contact', to: '/contact' },
+    ]
    
     return(
             
-
 <footer className='main-footer'>
     <Container fluid >
                 <Row className='my-3' md={3} lg={3} >
@@ -39,18 +45,17 @@ const Footer = () => {
                     <Col className='footer-col footer-site-nav' sm={12} >
                         <h3>Quick Links</h3>
                             <ul className='footer-col-items'>
-                                <li className='footer-col-item '>
-                                    <Link className='footer-col-links' to='/'>Home</Link>
+                               {footerNavigation.map((item) => {
+                                   return(
+                                    <li className='footer-col-item' key={item.name}>
+                                    <Link className='footer-col-links' to={item.to}>
+                                        {item.name}
+                                    </Link>
                                 </li>
-                                <li className='footer-col-item'>
-                                    <Link className='footer-col-links' to='/about'>About</Link>
-                                </li>
-                                <li className='footer-col-item'>
-                                    <Link className='footer-col-links' to='/services'>Services</Link>
-                                </li>
-                                <li className='footer-col-item'>
-                                    <Link className='footer-col-links' to='/contact'>Contact</Link>
-                                </li>
+                                   )
+                                       
+
+                                   })}
                             </ul>
                     </Col>
     
@@ -58,10 +63,18 @@ const Footer = () => {
                     <h3>Contact us</h3>
                             <ul className='footer-col-items'>
                                 <li className='footer-col-item'>
-                                    <a href='https://www.google.com/search?client=firefox-b-1-d&sxsrf=ALiCzsZUOoDPQY0MEaSKq0sGJaPVGIEY2A:1652437856819&q=Passion+Fruit+Media+Clt.&si=AC1wQDAjJ8oRvNXHnN4UeD0TNg1RI9jH_YrDo7Xn4YuANY1GXAUeFptNL_LP1yiX50VlYDZZOOX4kph6o5F8PgbqbVmtWmj1ORf1Z-_JiCdsQTmwgiWwJvaDxKF_QbclOZcBmNZngBQU68bl1LyjQV4iMm1IuBKlyskbZEvLcAizgvKOPzhvNzfIU7b44LMsKMZDZJaXUDzR4Zw2__Nbd1fX0IOFG0FEab8r9kwsO4rj1_DjWI5fn9E%3D&sa=X&ved=2ahUKEwi0h-Dbotz3AhWiI0QIHQLdCLUQ6RN6BAg-EAE&biw=1920&bih=995&dpr=1' target="_blank" rel='nonreferrer' className='footer-col-links'>Google business</a>
+                                    <a href='https://www.google.com/search?client=firefox-b-1-d&sxsrf=ALiCzsZUOoDPQY0MEaSKq0sGJaPVGIEY2A:1652437856819&q=Passion+Fruit+Media+Clt.&si=AC1wQDAjJ8oRvNXHnN4UeD0TNg1RI9jH_YrDo7Xn4YuANY1GXAUeFptNL_LP1yiX50VlYDZZOOX4kph6o5F8PgbqbVmtWmj1ORf1Z-_JiCdsQTmwgiWwJvaDxKF_QbclOZcBmNZngBQU68bl1LyjQV4iMm1IuBKlyskbZEvLcAizgvKOPzhvNzfIU7b44LMsKMZDZJaXUDzR4Zw2__Nbd1fX0IOFG0FEab8r9kwsO4rj1_DjWI5fn9E%3D&sa=X&ved=2ahUKEwi0h-Dbotz3AhWiI0QIHQLdCLUQ6RN6BAg-EAE&biw=1920&bih=995&dpr=1' 
+                                    target="_blank" 
+                                   rel="noreferrer" 
+                                    className='footer-col-links'>
+                                        Google business
+                                        </a>
                                 </li>
                                 <li className='footer-col-item'>
-                                    <a href='mailto:info@passionfruitmediaclt.com' className='footer-col-links' >info@passionfruitmediaclt.com</a>
+                                    <a href='mailto:info@passionfruitmediaclt.com' className='footer-col-links'
+                                    rel="noreferrer">
+                                         info@passionfruitmediaclt.com
+                                     </a>
                                 </li>
     
                             </ul>

@@ -5,8 +5,18 @@ import { useState } from 'react';
 import './sass/component/nav.scss'
 
 
+const navigation = [
+    { name: 'Home', to: '/' },
+    { name: 'About', to: '/about' },
+    { name: 'Services', to: '/services' },
+    { name: 'Contact', to: '/contact' },
+]
 
 const Nav = () => {
+
+
+
+    
     // This usestate will make the mobile menu drop down
     const [nav, showNav] = useState(false)
 
@@ -52,18 +62,14 @@ const Nav = () => {
                 </svg>
         
                     <ul className='nav-items hidden'>
-                        <li className='nav-item'>
-                            <Link to="/" className='nav-link' >Home</Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to="/about" className='nav-link' >About</Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to="/services" className='nav-link' >Services</Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to="/contact" className='nav-link' >Contact</Link>
-                        </li>
+                        {navigation.map((item) => {
+                            return (
+                                <li className='nav-item' key={item.name}>
+                                    <Link className='nav-link' to={item.to}>
+                                        {item.name}
+                                    </Link>
+                                </li>
+                            )})}
                     </ul>
             
 
