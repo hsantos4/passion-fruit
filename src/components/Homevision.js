@@ -18,8 +18,7 @@ const Homevision = () => {
                 <Col className='text-center mt-2' md={{ order: 1 }} sm={12}>
                     <h3 >A Solution that finally works!</h3>
                     <p >
-                     Services that help your agency reach its goals. We 
-                     focus on insurance agencies, we know what clients are looking for. 
+                    Web development and Digital Marketing are not just a set of tools, but a strategy that can help your agency reach its goals. We focus on insurance agencies and know what clients are looking for..
                     </p>
 
                 </Col>

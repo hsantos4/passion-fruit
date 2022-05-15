@@ -69,7 +69,7 @@ const Nav = () => {
                                         {item.name}
                                     </Link>
                                 </li>
-                            )})}
+                        )})}
                     </ul>
             
 

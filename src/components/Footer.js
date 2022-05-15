@@ -34,12 +34,9 @@ const Footer = () => {
     
                         <div className='footer-content-main'>
                             <p>
-                                I am Web developer and Digital marketer
-                                that gets your insurance agency know by user-friendly web design
-                                and optimized digital marketing
+                            When your insurance agency needs a new website design and digital marketing partner, they need the best. I am here to help your insurance agency be seen by offering user-friendly web design and optimized digital marketing.
                             </p>
                         </div>
-    
                     </Col>
     
                     <Col className='footer-col footer-site-nav' sm={12} >
@@ -47,15 +44,12 @@ const Footer = () => {
                             <ul className='footer-col-items'>
                                {footerNavigation.map((item) => {
                                    return(
-                                    <li className='footer-col-item' key={item.name}>
-                                    <Link className='footer-col-links' to={item.to}>
-                                        {item.name}
-                                    </Link>
-                                </li>
-                                   )
-                                       
-
-                                   })}
+                                        <li className='footer-col-item' key={item.name}>
+                                            <Link className='footer-col-links' to={item.to}>
+                                                {item.name}
+                                            </Link>
+                                        </li>
+                                   )})}
                             </ul>
                     </Col>
     

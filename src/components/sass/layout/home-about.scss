@@ -1,5 +1,10 @@
 .home-about {
-    margin: 10rem 0rem;
+    margin: 4rem 0rem;
 }
 
 
+@media screen and (min-width: 600px) {
+    .home-about {
+        margin: 8rem 0rem;
+    }
+}

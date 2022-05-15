@@ -21,9 +21,8 @@ const Missionvision = () => {
                 </Col>
                 <Col className='text-center' sm={12}>
                     <h3>Our Msison</h3>
-                    <p>To see your agency grow and to help you reach your goals faster.
-                    Seeing agencies grow is and will always been our mission, and it won't stop.
-                    Driven by hard work and dedication to see results is why we do this.</p>
+                    <p> Our goal is to help you reach your professional goals and bring value to your agency. On a mission to provide professional design and development services that help agencies grow.</p>
+                     <p>By leveraging technology, we can deliver quality work on time and within budget, allowing you to focus on what matters most: serving your clients and helping them succeed.</p>
                 </Col>
             </Row>
 
@@ -39,8 +38,9 @@ const Missionvision = () => {
                 </Col>
                 <Col className='text-center' sm={12} md={ {order:1} }>
                     <h3>Our Vison</h3>
-                    <p>To meet every Digital need your agency may have and fulfill every need to the best of our ability.
-                   We are committed to helping your agency and will use our knowledge and skills to make that happen.</p>
+                    <p> The end goal is to meet every Digital need your agency may have and fulfill every need to the best of our ability.</p> 
+                    <p>We are committed to helping your agency and will use our knowledge and skills to make that happen. </p>
+                    <p> With a range of flexible packages, you can be sure that we have an option that suits your business and personal needs.</p>
                 </Col>
             </Row>
         </Container>

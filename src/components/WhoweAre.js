@@ -21,15 +21,10 @@ const WhoweAre = () => {
                    
                 </Col>
                 <Col sm={12}>
-                    <h3>Who am I</h3>
-                    <p>My Name is Hector and I am the creator of Passion Fruit Media Clt </p>
-                    
-                    <p>This business came from a passion for developing websites and seeing growth take place in insurance agencies.</p>
-                
-                    <p>
-                        I have spent the last 4 years practicing SEO, coding 
-                        and studying the best practices when it comes to search engine marketing.
-                    </p>
+                    <h3>Who we are</h3>
+                    <p>Passion Fruit Clt is a group of incredibly passionate individuals who love working with insurance agencies. </p>
+                    <p>Our passion and life-long experience in Web Development and Search Engine Marketing has enabled us to create cutting edge websites for agencies.</p> 
+                    <p>We build our sites with a focus on user friendliness and usability, with an eye on achieving high search engine rankings.</p>
                 </Col>
             </Row>
 
@@ -46,7 +41,8 @@ const WhoweAre = () => {
                 </Col>
                 <Col className='about-me-who-we-are' sm={12} md={ {order:1} }>
                     <h3>What I do</h3>
-                    <p>I provide specialized services to get insurance agency more awareness, leads and more clients.I do this by offering insurance agencies high quality web products that produce results.</p>
+                    <p> We work hard to get every insurance agency the most exposure and coverage possible by offering online marketing products that produce results.</p>
+                    <p>We have been a professional in this industry for many years and our clients' success is what makes us happy.</p>
                     
                  
                 </Col>

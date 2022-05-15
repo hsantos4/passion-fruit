@@ -28,7 +28,6 @@ const HomePage = () => {
               Services we offer your agency
             </h3>
           <div className='home-services'>
-      
            <Cardslider />
           </div>
         </div>

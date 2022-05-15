@@ -33,8 +33,7 @@ const Services = () => {
                         What we do
                     </Card.Title>
                     <Card.Text>
-                        Creat remarkable digital products for insurance agencies. We want to see your agency grow so
-                        we put our heart into deploying the very best products that will deliver those results.
+                    We are a digital product company that specializes in creating remarkable digital products for insurance agencies. We want to see your agency grow so we put our heart into deploying the very best solutions that will deliver those results.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -54,8 +53,7 @@ const Services = () => {
                 </Col>
                 <Col className='col-text' sm={12} md={{order:1}}>
                     <h2>Web Design & Development</h2>
-                    <p>We Design and Develop websites. Our websites are optimized for search engines and created to reach the right audience. 
-                        Creating modern and simple websites that are easy to navigate.
+                    <p>We create stunning designs that convert visitors into customers. Our websites are easy to navigate, user-friendly and optimized to reach the right users.
                     </p>
                 </Col>
             </Row>
@@ -71,7 +69,7 @@ const Services = () => {
                 </Col>
                 <Col className='col-text' sm={12} md={ {order:2} }>
                     <h3>Maintenance & Hosting</h3>
-                    <p>With Website support we make sure that your website is up-to-date and running properly. You no longer have to spend hours trying update and fix website issues.</p>
+                    <p> We Provide Website support to ensure that your website is working properly and up-to-date. Our Web development team makes sure that your website is fully functional and compatible with different browsers, devices and platforms.</p>
                 </Col>
             </Row>
 
@@ -85,7 +83,7 @@ const Services = () => {
                 </Col>
                 <Col className='col-text' sm={12} md={ {order:1} }>
                     <h3>SEO</h3>
-                    <p>Optimizing your insurance website so your at the top is our goal, we conduct research for popular terms that people are searching for and we implement them on your website.</p>
+                    <p> Your website needs to be optimized in order to get found on the internet, web design and web development is what we do. We conduct research for popular terms that people are searching for and we implement those terms into your website so you can rank higher in the search engines and drive more traffic. </p>
                 </Col>
             </Row>
             <Row className='grid-row align-items-center' md={2} lg={2}>
@@ -98,7 +96,7 @@ const Services = () => {
                 </Col>
                 <Col className='col-text' sm={12} md={ {order:2} }>
                     <h3>Search Engine Marketing</h3>
-                    <p>Every person buying insurance starts online, we offer services to get your agency in front of potential clients shopping online. </p>
+                    <p>Online search engine marketing makes it easier for people to find your insurance agency. We provide services to help you get in front of potential clients shopping online in just a few steps. </p>
                 </Col>
             </Row>
 
