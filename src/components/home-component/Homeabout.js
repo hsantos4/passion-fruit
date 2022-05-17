@@ -20,7 +20,7 @@ const Homeabout = () => {
             
              alt='A photo of a computer with a graph'
              className='img-fluid' 
-             src='https://ik.imagekit.io/hjsantos797/My_website_images/about-min_sF887DPlc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650331579823' />
+             src='https://ik.imagekit.io/hjsantos797/My_website_images/growth-min_4m02t8V77.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652612290379' />
           </Col>
 
           <Col className='home-about-content text-center' sm={12}>

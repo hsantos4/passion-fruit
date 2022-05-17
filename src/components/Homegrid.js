@@ -12,8 +12,8 @@ import Container  from 'react-bootstrap/Container';
 
 
 const Homegrid = () => {
+    const homeGridinfo =
 
-    const homeGridinfo = 
     [
         {
             id: 1,
@@ -33,33 +33,39 @@ const Homegrid = () => {
             title: "Deploying the strategy",
             text: " We offer support and advice to help you get your agency on the right track for success. We will review your platform and make any adjustments needed. " 
         }
-        
-    
     ];
 
 
+    
 
     return (
         <Container fluid className='home-grid-container' >
+
             <div className='home-grid-heading'>
                 <h3>Our process is simple</h3>
             </div>
 
             <Row className='gy-3' md={3}  lg={3}>
 
-                {homeGridinfo.map((item) => {
-                    return (
+            {homeGridinfo.map((item) => {
                         <Col sm={12} key={item.id}>
                             <Card className='card-container'>
-                                <Card.img src={item.imgSrc} variant='top' className='img-fluid' />
-                                <Card.title>{item.title}</Card.title>
-                                <Card.text>{item.text}</Card.text>
+                                <Card.img src={item.imgSrc} variant='top' className='img-fluid'/>
+
+                                <Card.Body>
+                                    <Card.title>{item.title}</Card.title>
+                                    <Card.text>{item.text}</Card.text>
+                                </Card.Body>
+                                
                             </Card>
                         </Col>
+
                     )})}
+                    
             </Row>
         </Container>
     );
 };
+
 
 export default Homegrid;
