@@ -13,7 +13,7 @@ const Homeabout = () => {
     return (
       <Container className='fluid' >
 
-        <Row className='home-about align-items-center gy-2' md={2} lg={2}>
+        <Row className='home-about align-items-center gy-5' md={2} lg={2}>
           
           <Col sm={12} >
             <StaticImage

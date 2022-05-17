@@ -35,7 +35,7 @@ const HomePage = () => {
         <Homevision />
         <Herobanner />
       
-      
+      <Homegrid />
           <Form />
       </div>
     </main>

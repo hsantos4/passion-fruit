@@ -20,7 +20,7 @@ const WhoweAre = () => {
                     />
                    
                 </Col>
-                <Col sm={12}>
+                <Col className='mission-vision-conten' sm={12}>
                     <h3>Who we are</h3>
                     <p>Passion Fruit Clt is a group of incredibly passionate individuals who love working with insurance agencies. </p>
                     <p>Our passion and life-long experience in Web Development and Search Engine Marketing has enabled us to create cutting edge websites for agencies.</p> 
@@ -39,7 +39,7 @@ const WhoweAre = () => {
 
                     
                 </Col>
-                <Col className='about-me-who-we-are' sm={12} md={ {order:1} }>
+                <Col className='about-me-who-we-are mission-vision-conten' sm={12} md={ {order:1} }>
                     <h3>What I do</h3>
                     <p> We work hard to get every insurance agency the most exposure and coverage possible by offering online marketing products that produce results.</p>
                     <p>We have been a professional in this industry for many years and our clients' success is what makes us happy.</p>
