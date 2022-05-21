@@ -31,6 +31,7 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatbys-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     {
