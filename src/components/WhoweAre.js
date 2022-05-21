@@ -14,7 +14,7 @@ const WhoweAre = () => {
             <Row className='grid-row align-items-center' md={2} lg={2}>
                 <Col sm={12}>
                     <StaticImage 
-                    src='https://ik.imagekit.io/hjsantos797/My_website_images/home-about-img-min_VTi9e3TwS.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1650331582425' 
+                    src='https://ik.imagekit.io/hjsantos797/My_website_images/about-who-we-are-min_69t-EG5AT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1653137152300' 
                     alt='This is a picture of the owner'
                     class='img-fluid'
                     />
@@ -40,7 +40,7 @@ const WhoweAre = () => {
                     
                 </Col>
                 <Col className='about-me-who-we-are mission-vision-conten' sm={12} md={ {order:1} }>
-                    <h3>What I do</h3>
+                    <h3>What we do</h3>
                     <p> We work hard to get every insurance agency the most exposure and coverage possible by offering online marketing products that produce results.</p>
                     <p>We have been a professional in this industry for many years and our clients' success is what makes us happy.</p>
                     

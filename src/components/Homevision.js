@@ -11,7 +11,7 @@ const Homevision = () => {
     return (
         <Container className='fluid '> 
             <Row className='home-vision align-items-center' md={2}  lg={2}>
-                <Col  md={{order : 2}} sm={12}>
+                <Col className='px-4' md={{order : 2}} sm={12}>
                     <StaticImage src='https://ik.imagekit.io/hjsantos797/My_website_images/the-standard-min_Xufl4AfBv.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650331499418' className='img-fluid' alt=''/>
                 </Col>
 
