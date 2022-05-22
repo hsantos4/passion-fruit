@@ -11,6 +11,8 @@ const GATSBY_GA_MEASUREMENT_ID = 'G-VV1N3DZ3VV';
 
 export const onRenderBody = ({ setHeadComponents }) => {
   if (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test') return null;
+
+  
   setHeadComponents([
     <Partytown key="partytown" forward={['gtag']} />,
     <script key="google-analytics" type="text/partytown" src={`${ORIGIN}/gtag/js?id=${GATSBY_GA_MEASUREMENT_ID}`} />,
