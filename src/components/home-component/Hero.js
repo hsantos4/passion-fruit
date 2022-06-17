@@ -12,8 +12,8 @@ const Hero = () => {
 
             <div className='hero-content'>
             <h1>Web Design and <br/> Digital Marketing</h1>
-            <h2>For Insurance Agencies</h2>
-            <p> Helping insurance agencies become recognized online and grow their revenue by effectively reaching the right audience.</p>
+            <h2>For your business</h2>
+            <p> Helping your business become recognized online and grow their revenue by effectively reaching the right audience.</p>
             <Link to='/services' className='hero-cta'>Learn more</Link>
             </div>
         </div>
