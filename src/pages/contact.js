@@ -10,7 +10,7 @@ const Contact = () => {
         <div>
             <Helmet>
                 <title>Passion Fruit Media Clt | Contact us</title>
-                <meta name="description" content="Contact us to see how we can help your agency reach the online audience" />
+                <meta name="description" content="Contact us to see how we can help your company reach the online audience" />
             </Helmet>
             
             <div className='contact-banner '>

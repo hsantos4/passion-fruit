@@ -1,23 +1,23 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet";
 
 import Container  from 'react-bootstrap/Container';
-import Card from 'react-bootstrap/Card'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Card from 'react-bootstrap/Card';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-import Form from '../components/Form.js'
+import Form from '../components/Form.js';
 
-import '../components/sass/page/services.scss'
-import '../components/sass/layout/grid-layout.scss'
+import '../components/sass/page/services.scss';
+import '../components/sass/layout/grid-layout.scss';
 
 const Services = () => {
     return(
         <div>
             <Helmet>
                 <title>Passion Fruit Media Clt | Services</title>
-                <meta name="description" content="See the services we offer your insurance agency to reach more people" />
+                <meta name="description" content="See the services we offer your business to reach more people" />
             </Helmet>
 
         <div className='services-banner '>
@@ -33,7 +33,7 @@ const Services = () => {
                         What we do
                     </Card.Title>
                     <Card.Text>
-                    We are a digital product company that specializes in creating remarkable digital products for insurance agencies. We want to see your agency grow so we put our heart into deploying the very best solutions that will deliver those results.
+                    We are a digital product company that specializes in creating remarkable digital products for business. We want to see your company grow so we put our heart into deploying the very best solutions that will deliver those results.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -96,7 +96,7 @@ const Services = () => {
                 </Col>
                 <Col className='col-text' sm={12} md={ {order:2} }>
                     <h3>Search Engine Marketing</h3>
-                    <p>Online search engine marketing makes it easier for people to find your insurance agency. We provide services to help you get in front of potential clients shopping online in just a few steps. </p>
+                    <p>Online search engine marketing makes it easier for people to find your business. We provide services to help you get in front of potential clients shopping online in just a few steps. </p>
                 </Col>
             </Row>
 

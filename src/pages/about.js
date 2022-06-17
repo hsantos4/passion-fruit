@@ -36,7 +36,7 @@ const About = () => {
           The Digital age is here
         </h3>
         <p>
-          Peopel are looking for your agency online
+          Peopel are looking for your company online
         </p>
 
      
@@ -83,7 +83,7 @@ const About = () => {
    
 
     <div className='about-cta-container'>
-      <h3>See how we can help your agency</h3>
+      <h3>See how we can help your business</h3>
   
         <Link to='/contact' className='about-cta'>Learn more</Link>
       

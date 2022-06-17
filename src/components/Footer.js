@@ -34,7 +34,7 @@ const Footer = () => {
     
                         <div className='footer-content-main'>
                             <p>
-                            When your insurance agency needs a new website design and digital marketing partner, they need the best. I am here to help your insurance agency be seen by offering user-friendly web design and optimized digital marketing.
+                            When your business needs a new website design and digital marketing partner, they need the best. I am here to help your business be seen by offering user-friendly web design and optimized digital marketing.
                             </p>
                         </div>
                     </Col>
