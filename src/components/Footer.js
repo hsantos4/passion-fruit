@@ -53,7 +53,7 @@ const Footer = () => {
                             </ul>
                     </Col>
     
-                    <Col className='footer-col footer-contact-info' sm={12} >
+                    <Col className='footer-col footer-contact-hello' sm={12} >
                     <h3>Contact us</h3>
                             <ul className='footer-col-items'>
                                 <li className='footer-col-item'>
@@ -65,9 +65,9 @@ const Footer = () => {
                                         </a>
                                 </li>
                                 <li className='footer-col-item'>
-                                    <a href='mailto:info@passionfruitmediaclt.com' className='footer-col-links'
+                                    <a href='mailto:hello@passionfruitmediaclt.com' className='footer-col-links'
                                     rel="noreferrer">
-                                         info@passionfruitmediaclt.com
+                                         hello@passionfruitmediaclt.com
                                      </a>
                                 </li>
     
