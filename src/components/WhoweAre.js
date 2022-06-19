@@ -40,15 +40,9 @@ const WhoweAre = () => {
                     
                 </Col>
                 <Col className='about-me-who-we-are mission-vision-conten' sm={12} md={ {order:1} }>
-<<<<<<< HEAD
+
                     <h3>What we do</h3>
-                    <p> We work hard to get every insurance agency the most exposure and coverage possible by offering online marketing products that produce results.</p>
-=======
-                    <h3>What I do</h3>
                     <p> We work hard to get your business the most exposure and coverage possible by offering online marketing products that produce results.</p>
->>>>>>> Experimental
-                    <p>We have been a professional in this industry for many years and our clients' success is what makes us happy.</p>
-                    
                  
                 </Col>
             </Row>

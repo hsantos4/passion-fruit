@@ -2,7 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: `Passion Fruit Media Clt`,
-    description: `Helping insurance agencies reach the online audience`,
+    description: `Helping local businesses reach the online audience`,
     siteUrl: `https://passionfruitmediaclt.com`,
     favicon: `src/images/favicon.png`
   },

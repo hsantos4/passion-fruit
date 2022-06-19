@@ -96,11 +96,9 @@ const Services = () => {
                 </Col>
                 <Col className='col-text' sm={12} md={ {order:2} }>
                     <h3>Search Engine Marketing</h3>
-<<<<<<< HEAD
-                    <p>Online advertising makes it easier for people to find your insurance agency. We provide Google Ad services to help you get in front of potential clients shopping online in just a few steps. </p>
-=======
+
                     <p>Online search engine marketing makes it easier for people to find your business. We provide services to help you get in front of potential clients shopping online in just a few steps. </p>
->>>>>>> Experimental
+
                 </Col>
             </Row>
 
