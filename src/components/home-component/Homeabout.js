@@ -24,9 +24,9 @@ const Homeabout = () => {
           </Col>
 
           <Col className='home-about-content text-center' sm={12}>
-          <h1 >See your business grow</h1>
+          <h1 >See your Agency grow</h1>
               <p>
-              Every company has different challenges and goals. We develop custom solutions for your agency based on your needs, which lead to growth within your business.
+              Every Agency has different challenges and goals. We develop custom solutions for your agency based on your needs, which lead to growth within your business.
               </p>
           </Col>
 

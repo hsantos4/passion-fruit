@@ -23,7 +23,7 @@ const WhoweAre = () => {
                 <Col className='mission-vision-conten' sm={12}>
                     <h3>Who we are</h3>
                     <p>Passion Fruit Clt is a group of incredibly passionate individuals who love working with technology. </p>
-                    <p>Our passion and life-long experience in Web Development and Search Engine Marketing has enabled us to create cutting edge websites for your company.</p> 
+                    <p>Our passion and life-long experience in Web Development and Search Engine Marketing has enabled us to create cutting edge websites and marketing campaigns for your agency.</p> 
                     <p>We build our sites with a focus on user friendliness and usability, with an eye on achieving high search engine rankings.</p>
                 </Col>
             </Row>

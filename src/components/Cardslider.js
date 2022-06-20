@@ -43,7 +43,7 @@ const Cardslider = () => {
       </div>
         <Carousel.Caption>
           <h3>Search Engine Marketing</h3>
-          <p>Helping your business reach more people. </p>
+          <p>Helping your agency reach more people. </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

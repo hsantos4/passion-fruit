@@ -21,7 +21,7 @@ const Missionvision = () => {
                 </Col>
                 <Col className='text-center mission-vision-content' sm={12}>
                     <h3>Our Msison</h3>
-                    <p> Our goal is to help you reach your professional goals and bring value to your business. On a mission to provide professional design and development services that help company grow.</p>
+                    <p> Our goal is to help you reach your professional goals and bring value to your business. On a mission to provide professional design, development and digital marketing services that help agency grow.</p>
                      <p>By leveraging technology, we can deliver quality work on time and within budget, allowing you to focus on what matters most: serving your clients and helping them succeed.</p>
                 </Col>
             </Row>
