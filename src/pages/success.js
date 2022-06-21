@@ -12,6 +12,7 @@ const Success = () => {
             <Helmet>
                 <title>Passion Fruit Media Clt | Thank you!</title>
                 <meta name="description" content="This is the success page after submitting out form" />
+                <meta name="robots" content="noindex" />
             </Helmet>
 
             <div className='success-content-wrapper'>

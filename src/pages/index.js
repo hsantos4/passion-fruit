@@ -15,8 +15,8 @@ const HomePage = () => {
   return(
     <main>
       <Helmet>
-        <title>Passion Fruit Media Clt | Helping your insurance agency reach the online audience.</title>
-        <meta name="description" content="Offering business web services to reach the online audience"/>
+        <title>Passion Fruit Media Clt | Helping insurance agency reach the online audience.</title>
+        <meta name="description" content="Offering insurance agencies web services to reach the online audience"/>
       </Helmet>
       
       <div className='home-container'>
