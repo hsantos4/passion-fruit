@@ -40,7 +40,7 @@ const About = () => {
         </p>
 
      
-        <Link to='/contact' className='hero-cta'>Learn More</Link>
+        <Link to='/contact' className='hero-cta about-banner-2-cta'>Learn More</Link>
      
 
       </div>
