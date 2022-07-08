@@ -15,7 +15,7 @@ const submitForm = () => {
                 <div className='form-heading'>
                    
                         <h3>Tell me more about your project</h3>
-                        <p>It's <b>FREE</b> to see how we can help your agency reach the top!</p>
+                        <p>It's <b>FREE</b> to see how we can help your business reach the top!</p>
                 </div>
 
                 

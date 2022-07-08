@@ -12,11 +12,7 @@ const navigation = [
     { name: 'Contact', to: '/contact' },
 ]
 
-const Nav = () => {
-
-
-
-    
+const Nav = () => {    
     // This usestate will make the mobile menu drop down
     const [nav, showNav] = useState(false)
 

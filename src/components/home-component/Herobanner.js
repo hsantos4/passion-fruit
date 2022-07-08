@@ -7,7 +7,7 @@ const Herobanner = () => {
     return (
         <div className='hero-banner'>
         <h3>
-          See how we can help your Insurance Agency reach its goals
+          See how we can help your business reach its goals
         </h3>
         <Link className='home-mid-cta hero-cta' to='/contact'>Learn more</Link>
       </div>

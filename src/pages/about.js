@@ -83,7 +83,7 @@ const About = () => {
    
 
     <div className='about-cta-container'>
-      <h3>See how we can help your agency</h3>
+      <h3>See how we can help your company</h3>
   
         <Link to='/contact' className='about-cta'>Learn more</Link>
       

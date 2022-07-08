@@ -18,7 +18,7 @@ const Homevision = () => {
                 <Col className='text-center mt-2' md={{ order: 1 }} sm={12}>
                     <h3 >A Solution that finally works!</h3>
                     <p >
-                    We understand insurance agencies needs and we know what clients are looking for, we offer a strategy that can help your business reach its goals. 
+                    We understand local business needs and we know what customers are looking for, we offer a strategy that can help your business reach its goals. 
                     </p>
 
                 </Col>
