@@ -8,6 +8,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: " GTM-N29NWM7",
+        includeInDevelopment: false,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
@@ -56,5 +63,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`
-  ]
+  ],
+  
 };
